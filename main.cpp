@@ -23,7 +23,7 @@ using namespace std;
 Pixel average(Pixel, Pixel);
 //Takes two bitmap images and creates a composite image. Will also inform the user the progress of the overall composite function
 Bitmap composite(Bitmap, Bitmap, int, int);
-//Checks if the image the user inputed it valid
+//Adds a bitmap into the collection of bitmaps and checks if any subsequent bitmaps are the same size
 void addBitmap(vector<Bitmap>&, int&, string);
 
 int main(){
